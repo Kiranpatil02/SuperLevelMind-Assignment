@@ -7,8 +7,8 @@ import Facebook from "../../assets/Social Icons (3).svg";
 export default function Main() {
   return (
     <>
-      <div className="mt-20">
-        <div className="w-1/2 text-center text-[#4D4D4D] flex flex-col h-80  mx-auto justify-center mt-10  ">
+      <div className="mt-10">
+        <div className="w-1/2 text-center text-[#4D4D4D] flex flex-col h-80  mx-auto justify-center mt-10   ">
           <h2 className="text-5xl font-medium ">
             Discover what drives{" "}
             <span className="text-[#4C2CFF]">engagement </span>
@@ -30,7 +30,7 @@ export default function Main() {
         <button className="bg-[#434343] px-4 p-1 rounded-lg text-white  bg-zinc-800 hover:bg-zinc-800
           text-white 
           px-4 py-2 
-          rounded-md 
+          rounded-xl 
           transition-all duration-300 ease-in-out
           shadow-md hover:shadow-lg	 ">
             Get Started
