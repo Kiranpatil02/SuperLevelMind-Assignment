@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Instagram from "../../assets/Social Icons (1).svg";
 import Linkedin from "../../assets/Social Icons (2).svg";
 import Twitter from "../../assets/Social Icons.svg";
@@ -27,6 +28,7 @@ export default function Main() {
         </div>
       </div>
       <div  className="mx-auto w-fit">
+        <Link to={"/bot"}>
         <button className="bg-[#434343] px-4 p-1 rounded-lg text-white  bg-zinc-800 hover:bg-zinc-800
           text-white 
           px-4 py-2 
@@ -35,6 +37,7 @@ export default function Main() {
           shadow-md hover:shadow-lg	 ">
             Get Started
         </button>
+            </Link>
       </div>
     </>
   );
