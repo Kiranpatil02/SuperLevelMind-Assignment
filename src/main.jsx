@@ -14,6 +14,7 @@ const router=createBrowserRouter([
     path:"/bot",
     element:<Layout/>
   }
+  
 ])
 
 

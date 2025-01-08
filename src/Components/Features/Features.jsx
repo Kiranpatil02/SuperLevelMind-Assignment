@@ -28,11 +28,11 @@ export default function Features(){
 
 
     return(
-        <section className="py-12 ">
+        <section className="py-12 mt-28 w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8 ">
-            Powerful Features for Social Media Analysis
-          </h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
+              Key Features
+            </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
             {features.map((feature, index) => (
               <div key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl p-4 border ">
