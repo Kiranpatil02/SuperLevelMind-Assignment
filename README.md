@@ -4,14 +4,9 @@ Get the useful insights for maximizing your social media engagement with our pow
 
 Simply specify the kind of posts you want to analyze—be it static images, carousel posts, or short videos. The application dives deep into the data and provides actionable insights to show you what drives the highest engagement. 🚀
 
-
-
-
-
-
-
-
 ## 🚀 The Tech Stack in Use
+- **React**: For Frontend and API handling
+- **TailwindCSS**: For Styling
 - **Langflow**: To create workflows and interface with GPT for insights-integration.
 - **DataStax Astra DB**: Scalable cloud database used for storage and querying of engagement data.
 - **Python**: For scripting and performing database operations.

@@ -7,7 +7,7 @@ import { TbLayoutSidebarLeftCollapse } from "react-icons/tb";
 
 export default function Layout(){
     const [messags,setMessages]=useState([{sender:"AI",text:"Hey I am Social media Analyser, Ask any questions related to engagment of audience" }]);
-    const endpoint = "https://backenedserver-bkfyedafb2gxfcgs.canadacentral-01.azurewebsites.net/run_flow";
+    const endpoint = import.meta.env.VITE_API_ENDPOINT;
     const [loading, setLoading] = useState(false); 
 
     const handlemessages= async(query)=>{
