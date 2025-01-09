@@ -4,7 +4,7 @@ Get the useful insights for maximizing your social media engagement with our pow
 
 Simply specify the kind of posts you want to analyze—be it static images, carousel posts, or short videos. The application dives deep into the data and provides actionable insights to show you what drives the highest engagement. 🚀
 
-## 🚀 The Tech Stack in Use
+## 🚀 The Tech Stack Used
 - **React**: For Frontend and API handling
 - **TailwindCSS**: For Styling
 - **Langflow**: To create workflows and interface with GPT for insights-integration.
@@ -31,8 +31,8 @@ Simply specify the kind of posts you want to analyze—be it static images, caro
    - Advanced query processing and a higher degree of context comprehension using the **Azure OpenAI text-embedding-ada-002 Model**.
 
 5. **Interactive Frontend and Scalable Backend**:
-   - **React** was used to develop an interactive user interface to input and display insights.
-   - The backend was implemented in **Flask** and deployed on **Azure App Service** for scalability and high availability.
+   - We utilized **React**  to develop an interactive user interface to input and display insights.
+   - The backend was implemented in **Flask** and deployed on **Azure App Service** to act as a server
 
 ## 📁 Project Structure
 - **Dataset**: A CSV file simulating engagement metrics, stored in Astra DB.
